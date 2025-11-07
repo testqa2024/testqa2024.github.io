@@ -1,0 +1,62 @@
+{
+    "apm_strategy": {
+        "default": {
+            "threshold": 5,
+            "upload_interval": 10,
+            "enable": true,
+            "maxDataSize": 1048576,
+            "shouldUpload": true
+        }
+    },
+    "apms_strategy": {
+        "default": {
+            "threshold": 5,
+            "upload_interval": 10,
+            "enable": true,
+            "maxDataSize": 1048576,
+            "shouldUpload": true
+        }
+    },
+    "datapoint_strategy": {
+        "default": {
+            "threshold": 1,
+            "upload_interval": 10,
+            "enable": true,
+            "maxDataSize": 1048576,
+            "shouldUpload": true
+        }
+    },
+    "ddl_whitelist": {
+        "default": [
+            "79F2BBE4E5A343DA982C8348D46E6979",
+            "4936c721b9f1158f_unknown",
+            "961bc1e78206d7ed",
+            "8BB8ACAD3F864319B8936B617531F24F"
+        ]
+    },
+    "global_batch_size": {
+        "default": 50
+    },
+    "global_period": {
+        "default": 20
+    },
+    "realtime_strategy": {
+        "default": {
+            "threshold": 1,
+            "upload_interval": 0,
+            "enable": true,
+            "maxDataSize": 1048576,
+            "shouldUpload": true
+        }
+    },
+    "ubt_v4_strategy": {
+        "default": {
+            "threshold": 30,
+            "upload_interval": 10,
+            "enable": true,
+            "maxDataSize": 1048576,
+            "shouldUpload": true
+        }
+    }
+"ddl_percentage":{"default":100}
+}
