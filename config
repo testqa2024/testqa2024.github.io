@@ -57,6 +57,6 @@
             "maxDataSize": 1048576,
             "shouldUpload": true
         }
-    }，
+    },
 "ddl_percentage":{"default":100}
 }
